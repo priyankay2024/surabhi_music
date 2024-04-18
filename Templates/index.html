@@ -1,160 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="..\CSS\main.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/index.css" />
 
-    <!-- Favicon attachments -->
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="./favicon_package_v0.16/favicon.ico" /> -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./favicon_package_v0.16/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./favicon_package_v0.16/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./favicon_package_v0.16/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./favicon_package_v0.16/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="./favicon_package_v0.16/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-    <!-- Favicon attachments -->
-    <title>Surabhi Music Academy</title>
-  </head>
+  <!-- Favicon attachments -->
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="./favicon_package_v0.16/favicon.ico" /> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_package_v0.16/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_package_v0.16/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_package_v0.16/favicon-16x16.png" />
+  <link rel="manifest" href="./favicon_package_v0.16/site.webmanifest" />
+  <link rel="mask-icon" href="./favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <!-- Favicon attachments -->
+  <title>Surabhi Music Academy</title>
+</head>
 
-  <body>
-    <header>
-      <div class="logo">
-        <a href="index.html">
-          <img
-            src="../images/surabhi_trademark_nobg.png"
-            alt="Surabhi Music for Health"
-        /></a>
+<body>
+  <!-- <header> -->
+  <!-- <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+      <span class="sr-only">Menu</span>
+      <div id="header-ham">
+        <div class="hambar hambar-1"></div>
+        <div class="hambar hambar-2"></div>
+        <div class="hambar hambar-3"></div>
       </div>
-      <button
-        class="mobile-nav-toggle"
-        aria-controls="primary-navigation"
-        aria-expanded="false"
-      >
-        <span class="sr-only">Menu</span>
-        <div id="header-ham">
-          <div class="hambar hambar-1"></div>
-          <div class="hambar hambar-2"></div>
-          <div class="hambar hambar-3"></div>
-        </div>
-      </button>
-      <nav>
-        <ul
-          data-visible="false"
-          class="primary-navigation underline-indicators"
-        >
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html">Events</a></li>
-          <li><a href="index.html">Gallery</a></li>
-          <li><a href="index.html">Classes</a></li>
-          <li><a href="contact.html">Contact</a></li>
+    </button> -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-logo" href="index.html">
+        <img src="../images/surabhi_trademark_nobg.png" alt="Surabhi Music for Health" width="60" height="60"
+          class="d-inline-block align-top logo" />
+      </a>
+      <div class="navbar-elements">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link links" style="padding: 27px 25px;" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" style="padding: 27px 25px;" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" style="padding: 27px 25px;" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" style="padding: 27px 25px;" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" style="padding: 27px 25px;" href="#classes">Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" style="padding: 27px 25px;" href="#contacts">Contact</a>
+          </li>
         </ul>
-      </nav>
-    </header>
-    
-    <div id="media">
-      <div id="prev-btn"></div>
-      <div id="eq">
-        <span class="bar bar1"></span>
-        <span class="bar bar2"></span>
-        <span class="bar bar3"></span>
       </div>
-      <div id="next-btn"></div>
     </div>
-    <!-- <div id="separator">
-        <img
-          src="images/seprator_flute.png"
-          alt="-----------------------------------------------------------------------"
-        />
-      </div> -->
-    <main>
-      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/zPbBdConKoU?si=FtCaMh8eMhExCz5f&amp;start=10&mute=1&autoplay=1&loop=1&rel=0&playlist=zPbBdConKoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+  </nav>
 
-      <!-- <h1>Gallery</h1>
-      <section class="gallery">
-        <img src="images/Sir_E_Base.JPG" alt="" class="gallery-img">
-        <img src="images/sir_flute_D.png" alt="" class="gallery-img">
-        <img src="images/sir_sitting_MO.png" alt="" class="gallery-img">
-        <img src="images/guest saitejas.jpg" alt="" class="gallery-img">
-      </section> -->
-      <article class="left-right">
-        <div class="left">
-          <article class="card">
-            <h1>Guruji Shri Sunil Patil</h1>
-
-            <p>
-              Established in 2009 by Shri Sunil Patil, Surabhi Music Academy
-              pays homage to the time-honored tradition of Guru Shishya
-              Parampara (teacher-disciple relationship). Sunil Patil, a disciple
-              of Pt.Shri Vivek Sonar from the Maihar Gharana ( a senior disciple
-              of Pt. Hariprasad Chaurasia), exemplifies virtuosity in both the
-              mouth organ and flute, dedicating his life to music, teaching, and
-              the advancement of the Mouth Organ. He has foundation in
-              Hindustani Classical Music since childhood.
-            </p>
-            <p>
-              His passion for the instrument gave rise to the annual Harmonica
-              Festival, a platform showcasing the world's finest mouth organ
-              talents. Not only does this event promote the instrument
-              nationally, but it also offers students the opportunity to display
-              their skills in front of a vast audience alongside seasoned
-              masters.
-            </p>
-            <p>
-              His fervent dedication to disseminating music for the betterment
-              of society has led to the cultivation of a substantial following
-              of disciples in both Harmonica and Flute. He offers training in
-              both instruments through both offline and online modalities.
-            </p>
-<!-- 
-            <p>
-              Surabhi Music Academy was founded in 2009 by Shri Sunil Patil
-              honoring the age old lineage of Guru Shishya Parampara
-              (teacher-disciple relationship). He belongs to Maihar Gharana,
-              being a disciple of Shri Vivek Sonar (senior disciple of Pdt
-              Hariprasad).
-            </p>
-            <p>
-              A virtuoso in both the mouth organ and flute, he has dedicated his
-              life to music, teaching and the development of Mouth Organ. Being
-              trained in Hindustani Classical Music since his childhood, he is
-              currently researching on the development of Gayaki Angs like Meend
-              and Gamaks on the mouth organ.
-            </p>
-            <p>
-              His love for Mouth organ gave birth to the annual Harmonica
-              Festival that showcases the finest talents in the world of mouth
-              organ. It not only promotes the Mouth Organ in the country but
-              also provides students the stage to showcase their skills in front
-              of a huge audience alongside of the masters.
-            </p> -->
-          </article>
+  <div class="main-container section" id="home">
+    <div class="is-container">
+      <div class="is-card">
+        <img src="../images/sir_sitting_MO_hd.png" width="535" />
+      </div>
+      <div class="row row-main-heading is-centered is-container">
+        <div class="is-card main-heading">
+          <div style="height: 10px; width: 100px; background: #6b1e18; margin-top: 50px; margin-left: 0px;"
+            id="1632459387318">
+          </div>
+          <h1 class="header-title">Guru Shishya Parampara</h1>
+          <p class="header-name">By Sunil Patil</p>
         </div>
-        <section class="right">
-          <img src="../images/sir_sitting_MO_hd.png" />
-        </section>
-      </article>
-    </main>
-    <script src="script.js"></script>
-    <script src="nav.js"></script>
-  </body>
+      </div>
+    </div>
+
+  </div>
+  <div class="intro-container section" id="about">
+    <div class="intro-para-body is-container">
+      <div class="intro-para">
+        <div style="height: 5px; width: 100px; background: #6b1e18; margin-top: 50px;">
+        </div>
+        <h1 class="animate-left">Guruji Shri Sunil Patil</h1>
+        <div>
+          <p>
+            Established in 2009 by Shri Sunil Patil, Surabhi Music Academy
+            pays homage to the time-honored tradition of Guru Shishya
+            Parampara (teacher-disciple relationship). Sunil Patil, a disciple
+            of Pt.Shri Vivek Sonar from the Maihar Gharana ( a senior disciple
+            of Pt. Hariprasad Chaurasia), exemplifies virtuosity in both the
+            mouth organ and flute, dedicating his life to music, teaching, and
+            the advancement of the Mouth Organ. He has foundation in
+            Hindustani Classical Music since childhood.
+          </p>
+          <p>
+            His passion for the instrument gave rise to the annual Harmonica
+            Festival, a platform showcasing the world's finest mouth organ
+            talents. Not only does this event promote the instrument
+            nationally, but it also offers students the opportunity to display
+            their skills in front of a vast audience alongside seasoned
+            masters.
+          </p>
+          <p>
+            His fervent dedication to disseminating music for the betterment
+            of society has led to the cultivation of a substantial following
+            of disciples in both Harmonica and Flute. He offers training in
+            both instruments through both offline and online modalities.
+          </p>
+        </div>
+
+      </div>
+      <div class="is-card ">
+        <img src="../images/sir_flute_D.png" width="535" style="border-radius: 10px;" class="animate-right" />
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-container is-container section" id="contacts">
+    <div class="contact-details">
+      <div class="contact-info">
+        <h1>Surabhi Music Academy</h1>
+        <h2>Contact Us</h2>
+        <p>B-2, Katepuram Society (Phase 1), </p>
+        <p>New Sangvi, Pimple Gurav </p>
+        <p>Pune, Maharashtra-411061</p>
+        <p>Phone: 9923155267, 8668204290</p>
+      </div>
+
+      <div class="is-social is-container" data-aos="fade-up">
+        <a href="#" title="">
+          <i class="icon ion-social-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/people/Surabhi-Music-Academy/100063698980654/" title="">
+          <i class="icon ion-social-facebook"></i>
+        </a>
+        <a href="https://wa.me/9923155267?text=I%20want%20to%20learn%20flute%2Fmouth%20organ%20"
+          rel="noopener noreferrer" title="">
+          <i class="icon ion-social-whatsapp"></i>
+        </a>
+        <a href="https://www.youtube.com/@surabhimusic6581" title="">
+          <i class="icon ion-social-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/sunilpatilpune/" title="">
+          <i class="icon ion-social-instagram"></i>
+        </a>
+      </div>
+    </div>
+    <div class="google-map">
+      <iframe frameborder="no" scrolling="yes" marginheight="10" marginwidth="0"
+        src="https://maps.google.com/maps?width=100%25&amp;height=100&amp;hl=en&amp;q=surabhi%20music%20academy,%20Pune+(Surabhi%20Music%20Academy)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+        <a href="https://www.gps.ie/">gps trackers</a></iframe>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="../script.js"></script>
+  <script src="../nav.js"></script>
+  <script src="../JS/animations.js"></script>
+
+</body>
 </html>

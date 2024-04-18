@@ -24,5 +24,4 @@ function toggleNavArea(visibility){
         primaryNav.setAttribute("data-visible", false);
         navToggle.setAttribute("aria-expanded", false);
     }
-
 }
